@@ -2,7 +2,7 @@ body {
   font: 13px Tahoma, "Lucida Grande", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0 50px;
-  border-top: 3px #444 solid;
+  border-top: 10px #444 solid;
 }
 
 a, a:link {
@@ -10,68 +10,74 @@ a, a:link {
   color: #82251d;
 }
 
+a:hover {
+    -moz-transform: rotate(8deg); 
+    -webkit-transform: rotate(8deg);
+}
+
+#content figure {
+    -moz-box-shadow: 1px 1px 13px #444; 
+    -webkit-box-shadow: 1px 1px 13px #444; 
+    box-shadow: 1px 1px 13px #444;
+}
+
 img {
-  border: none;
+    margin: 20px;
+    /*border: 8px solid #444;*/
 }
 
-span.firstname {
-  color: #444;
+img:hover {
+    -moz-transform: rotate(8deg); 
+    -webkit-transform: rotate(8deg);
 }
 
-h1.submenu a:first-letter {
-    color: #82251d;
+figcaption {
+    float: right;
 }
 
-h1 {
+header, nav, footer, figure, section {
+    display: block;
+}
+
+[role=banner] h1 {
   font-family: Helvetica, Arial, sans-serif;
-}
-
-p.last {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 2em;
-}
-
-#main h1 {
   margin: 0;
   margin-top: 50px;
   font-size: 2.5em;
 }
 
-#main dl.menu {
-  font-size: 2em;
+[role=banner] span.firstname {
+  color: #444;
 }
 
-#main dl.menu dt {
-  padding: 0;
-  margin: 0 0 0 0.5em;
-  text-transform: lowercase;
-  line-height: 1.15em;
+[role=navigation] ul {
+    font-size: 2em;
+    padding: 0;
+    margin: 0 0 0 0.5em;
+    text-transform: lowercase;
+    line-height: 1.15em;
 }
 
-#main dl.menu dd {
-  display: none;
-  position: absolute;
-  top: 17em;
-  left: 3em;
-  font-size: .5em;
+[role=navigation] li {
+    color: #999;
+    list-style-type:none;
 }
 
-
-dl.menu {
-  color: #999;
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
-}
-
-dl.menu a {
+[role=navigation] li a {
   color: #999;
 }
 
-dl.menu a.here, dl.menu a:hover {
+[role=navigation] li a.here, li a:hover {
   color: #82251d;
 }
 
-dl.menu dt:before {
+[role=navigation] li:before {
   content: '> ';
 }
+
+#content figure {
+  -moz-box-shadow: 1px 1px 13px #999; 
+  -webkit-box-shadow: 1px 1px 13px #999; 
+  box-shadow: 1px 1px 13px #999;
+}
+

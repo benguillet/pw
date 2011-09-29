@@ -10,8 +10,8 @@ a, a:link {
   color: #369;
 }
 
-img {
-  border: none;
+header, nav, footer, figure, section {
+      display: block;
 }
 
 span.firstname {
