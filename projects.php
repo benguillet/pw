@@ -6,7 +6,7 @@
         <title>Benjamin Guillet - Projects</title>
         <meta name="author" content="Benjamin Guillet" />        
         <!--[if IE]><script src="scripts/html5-ie.js"></script><![endif]-->
-        <link rel="stylesheet" media="all" href="./styles/chocolate/screen.css" />    
+        <link rel="stylesheet" media="all" href="./styles/screen.css" />    
     </head>
     <body>
         <header role="banner">
@@ -14,7 +14,7 @@
         </header>
         <div id="content">
             <figure> 
-                <img src="./pictures/projects/ag41_project.png" alt="Operational Research Project" />
+                <img src="/images/projects/ag41_project.png" alt="Operational Research Project" />
                 <figcaption>Blablabla Operational Research, so goood</figcaption>
             </figure>
         </div>
