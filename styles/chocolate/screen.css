@@ -2,7 +2,11 @@ body {
   font: 13px Tahoma, "Lucida Grande", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0 50px;
-  border-top: 10px #444 solid;
+  /*border-top: 10px #444 solid;*/
+  /*background-color: #444;*/
+  /*border-bottom: 5px #82251d solid;*/
+  background-image: url('/images/background.png'); 
+  background-repeat: repeat-x;
 }
 
 a, a:link {
@@ -14,6 +18,13 @@ a:hover {
     -moz-transform: rotate(8deg); 
     -webkit-transform: rotate(8deg);
 }
+
+/*#bar {
+    margin: 0;
+    height: 15px;
+    background-color: #444;
+    border-bottom: 5px #82251d solid;
+}*/
 
 #content figure {
     -moz-box-shadow: 1px 1px 13px #444; 
@@ -38,6 +49,10 @@ figcaption {
 header, nav, footer, figure, section {
     display: block;
 }
+
+/*header {
+    border-top: 5px #82251d solid;
+}*/
 
 [role=banner] h1 {
   font-family: Helvetica, Arial, sans-serif;

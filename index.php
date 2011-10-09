@@ -9,6 +9,7 @@
         <link rel="stylesheet" media="all" href="./styles/chocolate/screen.css" />    
     </head>
     <body>
+        <div id="bar"></div>
         <header role="banner">
             <h1><a href="/" title="Home"><span class="firstname">benjamin</span>guillet</a></h1>        
         </header>
