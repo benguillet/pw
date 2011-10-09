@@ -6,7 +6,7 @@
         <title>Benjamin Guillet - Software Engineering Student</title>
         <meta name="author" content="Benjamin Guillet" />        
         <!--[if IE]><script src="scripts/html5-ie.js"></script><![endif]-->
-        <link rel="stylesheet" media="all" href="./styles/screen.css" />    
+        <link rel="stylesheet" media="all" href="/styles/screen.css" />    
     </head>
     <body>
         <header role="banner">
