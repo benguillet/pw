@@ -12,8 +12,6 @@ a, a:link {
 }
 
 a:hover {
-    -moz-transform: rotate(8deg); 
-    -webkit-transform: rotate(8deg);
 }
 
 #content figure {
