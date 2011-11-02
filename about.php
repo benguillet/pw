@@ -13,7 +13,7 @@
             <h1><a href="/" title="Home"><span class="firstname">a</span>bout</a></h1>        
         </header>
         <div id="content">
-         <p>Work in progress...</p>
+         <p>Hi, I'm just a young French boy currently involved in a computer-science engineering master degree at UTBM.</p>
         </div>
     </body>
 </html>
