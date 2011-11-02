@@ -12,11 +12,18 @@
         <header role="banner">
             <h1><a href="/" title="Home"><span class="firstname">p</span>rojects</a></h1>        
         </header>
-        <div id="content">
-            <figure> 
+        <div id="github-projects">
+            <!--<figure> 
                 <img src="/images/projects/ag41_project.png" alt="Operational Research Project" />
                 <figcaption>Blablabla Operational Research, so goood</figcaption>
-            </figure>
+            </figure>-->
         </div>
+        <script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+        <script src="/scripts/github.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(function() {
+                $("#github-projects").loadRepositories("Tartopom");
+            });
+        </script>
     </body>
 </html>
