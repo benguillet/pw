@@ -18,8 +18,8 @@
                 <figcaption>Blablabla Operational Research, so goood</figcaption>
             </figure>-->
         </div>
-        <script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
-        <script src="/scripts/github.js" type="text/javascript"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="/scripts/github_min.js" type="text/javascript"></script>
         <script type="text/javascript">
             $(function() {
                 $("#github-projects").loadRepositories("Tartopom");
