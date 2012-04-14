@@ -1,36 +1,33 @@
 body {
-  font: 13px Tahoma, "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px sans-serif;
+  color: #444;
   margin: 0;
   padding: 0 50px;
-  background-image: url('/images/background.png'); 
-  background-repeat: repeat-x;
+  background-color: #222;
 }
+
 
 a, a:link {
   text-decoration: none;
   color: #82251d;
 }
 
-a:hover {
-}
-
-#content figure {
-    -moz-box-shadow: 1px 1px 13px #444; 
-    -webkit-box-shadow: 1px 1px 13px #444; 
-    box-shadow: 1px 1px 13px #444;
-}
-
-img {
-    margin: 20px;
-}
-
-img:hover {
-    -moz-transform: rotate(8deg); 
-    -webkit-transform: rotate(8deg);
-}
-
-figcaption {
-    float: right;
+#main {
+  margin: 0;
+  padding: 10px 0;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -259px;
+  margin-left: -144px;
+  overflow: hidden;
+  text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+  filter: dropshadow(color=#eee, offx=0, offy=1);
+  /*background-image: url('../images/background.png'); 
+  background-repeat: repeat-x;*/
+  background-color: rgb(241, 241, 241);
+  border: 5px solid #82251d;
 }
 
 header, nav, footer, figure, section {
@@ -38,44 +35,45 @@ header, nav, footer, figure, section {
 }
 
 [role=banner] h1 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   margin: 0;
-  margin-top: 50px;
-  font-size: 2.5em;
+  font-size: 32px;
+  text-align: center;
+}
+
+
+[role=banner] h2 {
+  font-family: sans-serif;
+  margin:  0 0 10px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  padding: 5px 20px 0 20px;
 }
 
 [role=banner] span.firstname {
   color: #444;
 }
 
-[role=navigation] ul {
-    font-size: 2em;
-    padding: 0;
-    margin: 0 0 0 0.5em;
-    text-transform: lowercase;
-    line-height: 1.15em;
-}
-
-[role=navigation] li {
-    color: #999;
-    list-style-type:none;
-}
-
-[role=navigation] li a {
-  color: #999;
-}
-
-[role=navigation] li a.here, li a:hover {
+span.important {
   color: #82251d;
 }
 
-[role=navigation] li:before {
-  content: '> ';
+.social
+{
+  display: inline-block;
+  margin: 0 0 0 30px;
+  text-indent: -1000px;
+  overflow: hidden;
+  height: 24px;
+  width: 24px;
+  background: url('../images/linkedin.png') no-repeat;
+  background-color: transparent !important;
 }
 
-#content figure {
-  -moz-box-shadow: 1px 1px 13px #999; 
-  -webkit-box-shadow: 1px 1px 13px #999; 
-  box-shadow: 1px 1px 13px #999;
+p a:hover {
+  border-bottom: 1px dashed #82251d;
 }
-
