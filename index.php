@@ -28,7 +28,7 @@
                 and French Teacher Assistant soon-to-be at <a href="http://www.stolaf.edu/" target="_blank">St. Olaf College</a>, 
                 as well as an exchange student there.</p>
                 <p>I'm currently doing my internship in Venice, CA in a Mobile Marketing startup called 
-                <a href="http://www.mogreet.com" target="_blank">Mogreet, Inc</a>, with an incredible atmosphere and technology use.</p>
+                <a href="http://www.mogreet.com" target="_blank">Mogreet</a>, with an incredible atmosphere and technology use.</p>
                 <p>I have to say that I love California and the way of life here!</p>
             </div>
             <h3 class="section"><a href="/" class="github"><span class="important">P</span>rojects</a></h3>
@@ -36,38 +36,5 @@
             <h3><a href="http://blog.benjaminguillet.com" target="_blanck"><span class="important">B</span>log</a></h3>
         </section>
         <footer></footer>
-
-        <!--<h2>GitHub Projects</h2>
-        <div id="github"></div>
-        <h2>Coderwall Achievement Badges</h2>
-        <div id="coderwall"></div>
-        <h2>Codeschool Badges</h2>
-        <h3>Completed courses</h3>
-        <div id="cs-completed">
-            <p>All the courses that I've aced!</p>
-        </div>
-        <h3>Courses in Progress</h3>
-        <div id="cs-in-progress">
-            <p>Working on them...</p>
-        </div>
-        <script type="text/javascript">
-            $('#coderwall').proudify({'username':'tartopom', 'service':'coderwall'});
-            $('#cs-completed').scorecard({
-                username: 'Tartopom',
-                sections: ['completed'],
-                newtab: true,
-                loading: {
-                  message: 'Loading Code School badges...'
-                }
-            });
-            $('#cs-in-progress').scorecard({
-                username: 'Tartopom',
-                sections: ['in-progress'],
-                newtab: true,
-                loading: {
-                  message: 'Loading Code School badges...'
-                }
-            });
-        </script>-->
     </body>
 </html>
