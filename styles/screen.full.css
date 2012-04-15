@@ -2,8 +2,7 @@ body {
   font: 14px sans-serif;
   color: #444;
   margin: 0;
-  padding: 0 50px;
-  background-color: rgb(241, 241, 241);
+  background-color: #FFF;
   background-image: url('../images/background.png'); 
   background-repeat: repeat-x;
 }
@@ -11,23 +10,55 @@ body {
 
 a, a:link {
   text-decoration: none;
+  color: #444;
+}
+
+a:hover {
   color: #82251d;
 }
 
+p a {
+  text-decoration: none;
+  color: #82251d;
+}
+
+p a:hover {
+  border-bottom: 1px dashed #82251d;
+}
 
 header, nav, footer, figure, section {
     display: block;
 }
 
-#content {
-  margin: 0 0 0 15px;
+header {
+  margin: 0 0 0 50px;
+}
+
+section {
+  margin: 0 0 0 65px;
   padding: 0;
+}
+
+footer {
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  clear: both;
+  z-index: 10;
+  bottom: 0px;
+  background-color: #333;
+  border-top: 7px solid #82251d;
 }
 
 [role=banner] h1 {
   font-family: sans-serif;
   margin: 50px 0 0 0;
   font-size: 32px;
+}
+
+[role=banner] h1 a:hover {
+  color: #444;
 }
 
 
@@ -40,35 +71,14 @@ header, nav, footer, figure, section {
 h3 {
   font-size: 20px;
   margin: 0 0 5px 0;
-  cursor: pointer;
 }
 
 h3.narrow {
   color: #82251d;
 }
 
-[role=banner] span.firstname {
-  color: #444;
-}
-
 span.important {
   color: #82251d;
-}
-
-.social
-{
-  display: inline-block;
-  margin: 0 0 0 30px;
-  text-indent: -1000px;
-  overflow: hidden;
-  height: 24px;
-  width: 24px;
-  background: url('../images/linkedin.png') no-repeat;
-  background-color: transparent !important;
-}
-
-p a:hover {
-  border-bottom: 1px dashed #82251d;
 }
 
 #presentation {
@@ -80,9 +90,5 @@ p a:hover {
 }
 
 #github {
-  display: none;
-}
-
-#social_buttons {
   display: none;
 }

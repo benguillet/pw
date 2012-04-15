@@ -5,10 +5,10 @@
         <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
         <title>Benjamin Guillet - Software Engineering Student</title>
         <meta name="author" content="Benjamin Guillet" />        
-        <!--[if IE]><script src="scripts/html5-ie.js"></script><![endif]-->
         <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis:500' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="styles/proudify.min.css" type="text/css"/>
-        <link rel="stylesheet" media="all" href="styles/screen.css" />
+        <link rel="stylesheet" media="all" href="styles/screen.min.css" />
+        <link rel="shortcut icon" type="images/x-icon" href="favicon.ico" />
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         <script type="text/javascript" src="https://raw.github.com/icebreaker/proudify/master/jquery-proudify.min.js"></script>
         <script type="text/javascript" src="scripts/menu.min.js"></script>
@@ -16,25 +16,26 @@
     </head>
     <body>
         <header role="banner">
-                <h1><a href="/" title="Home"><span class="firstname">Benjamin</span>Guillet</a></h1>
+                <h1><a href="/" title="Home">Benjamin<span class="important">Guillet</span></a></h1>
                 <h2>Software <span class="important">Engineering</span> Student</h2>        
         </header>
-        <div id="content">
-            <h3 id="about">About</h3>
+        <section>
+            <h3 class="section"><a href="/" class="presentation"><span class="important">A</span>bout</a></h3>
             <div id="presentation">
                 <p>Hi!</p>
-                <p>I'm a 21 years old Software Engineering student at 
-                the <a href="http://www.utbm.fr" target="_blank">University of Technology of Belfort-Montbéliard</a> in France, 
-                and French Teacher Assistant soon-to-be at <a href="http://stolaf.edu/depts/french/activities/activity.html" target="_blank">St. Olaf College</a>, 
+                <p>I'm a 21 years old French Software Engineering student at 
+                the <a href="http://www.utbm.fr" target="_blank">University of Technology of Belfort-Montbéliard</a> (UTBM), 
+                and French Teacher Assistant soon-to-be at <a href="http://www.stolaf.edu/" target="_blank">St. Olaf College</a>, 
                 as well as an exchange student there.</p>
                 <p>I'm currently doing my internship in Venice, CA in a Mobile Marketing startup called 
-                <a href="http://www.mogreet.com" target="_blank">Mogreet, Inc</a>, with an incredible atmosphere and technology use. 
-                I love California and the way of life here.<p/>
+                <a href="http://www.mogreet.com" target="_blank">Mogreet, Inc</a>, with an incredible atmosphere and technology use.</p>
+                <p>I have to say that I love California and the way of life here!</p>
             </div>
-            <h3 id="projects">Projects</h3>
+            <h3 class="section"><a href="/" class="github"><span class="important">P</span>rojects</a></h3>
             <div id="github"></div>
-            <h3><a href="http://blog.benjaminguillet.com" target="_blanck">Blog</a></h3>
-        </div>
+            <h3><a href="http://blog.benjaminguillet.com" target="_blanck"><span class="important">B</span>log</a></h3>
+        </section>
+        <footer></footer>
 
         <!--<h2>GitHub Projects</h2>
         <div id="github"></div>
@@ -50,7 +51,6 @@
             <p>Working on them...</p>
         </div>
         <script type="text/javascript">
-            $('#github').proudify({'username':'Tartopom', 'num':'0'});
             $('#coderwall').proudify({'username':'tartopom', 'service':'coderwall'});
             $('#cs-completed').scorecard({
                 username: 'Tartopom',
