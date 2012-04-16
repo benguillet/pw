@@ -51,6 +51,16 @@ footer {
   border-top: 7px solid #82251d;
 }
 
+footer img {
+  margin: 7px 5px 0 5px;
+  float: right;
+}
+
+footer img:hover {
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+}
+
 [role=banner] h1 {
   font-family: sans-serif;
   margin: 50px 0 0 0;
