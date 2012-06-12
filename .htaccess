@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} !^www\.benjaminguillet\.com
+RewriteRule (.*) http://www.benjaminguillet.com/$1 [R=301,L]
