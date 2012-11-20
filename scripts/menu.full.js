@@ -8,5 +8,5 @@ $(document).ready(function() {
         divs.not(('#' + $(this).attr('class'))).hide();
     });
 
-    $('#github').proudify({'username':'Tartopom', 'num':'0', 'pushed_at': '60'});
+    $('#github').proudify({'username':'benjamin-guillet', 'num':'0', 'pushed_at': '60'});
 });
