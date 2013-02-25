@@ -22,6 +22,37 @@ footer: true
 
 <div class="project_item">
     <div class="project_item_thumbnail">
+        <img src="../images/projects/transit_timer.jpg" />
+    </div>
+    <div class="project_item_side">
+        <h2><a href="https://github.com/benjamin-guillet/transit-timer" target="_blank">Transit Timer</a></h2>
+        <p class="project_item_description">Android app for St. Olaf College.<br /><br />
+            Transit Timer lets you check & track how much time your need to go to <br />from a point A to B on campus.
+            And the # of people in caf right now,<br />the daily menu, the hours of operations and a bunch of fun stats.
+        </p>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+
+<div class="project_item">
+    <div class="project_item_thumbnail">
+        <img src="../images/projects/videolist.png" />
+    </div>
+    <div class="project_item_side">
+        <h2><a href="https://github.com/benjamin-guillet/hollywood-hack-day" target="_blank">VideoList - Hackathon Winner</a></h2>
+        <p class="project_item_description">
+            Social and responsive online video viewing queue. Works with a chrome extension.<br /><br />
+            Developed for the <a href="http://www.hollywoodhackday.com/" target="_blank"> Hollywood Hack Day Hackathon</a> in 30 hours.<br /><br />
+            Ranked <a href="http://www.hollywoodhackday.com/press.html" target="_blank">3rd</a> among 24 projects and 90 developers.
+        </p>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+
+<div class="project_item">
+    <div class="project_item_thumbnail">
         <img src="../images/projects/angry_utbm.png" />
     </div>
     <div class="project_item_side">

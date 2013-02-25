@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://site-octopress.dev/sitemap.xml 
+Sitemap: http://www.benjaminguillet.com/sitemap.xml 
