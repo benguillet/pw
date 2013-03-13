@@ -265,6 +265,10 @@ a {
 	color: $greyshade;
 }
 
+a.google.hidden {
+    display: none !important;
+}
+
 a:hover {
 	color: $greyshade;
 }
