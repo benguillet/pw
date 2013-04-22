@@ -6,6 +6,18 @@ comments: false
 sharing: false
 footer: true
 ---
+<div class="project_item">
+    <div class="project_item_thumbnail">
+        <img src="../images/projects/shockapi.png" />
+    </div>
+    <div class="project_item_side">
+        <h2><a href="https://github.com/benjamin-guillet/shock#readme" target="_blank">ShockAPI</a></h2>
+        <p class="project_item_description">A simple JSON REST API to fetch data about earthquakes.<br /><br />
+        Technologies used : sinatra, activerecord, postgres, rspec, unicorn, heroku, poncho...
+    </p>
+    </div>
+</div>
+<div class="clearfix"></div>
 
 <div class="project_item">
     <div class="project_item_thumbnail">
@@ -19,7 +31,6 @@ footer: true
     </div>
 </div>
 <div class="clearfix"></div>
-
 
 <div class="project_item">
     <div class="project_item_thumbnail">
