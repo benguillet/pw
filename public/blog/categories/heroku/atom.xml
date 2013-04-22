@@ -4,7 +4,7 @@
   <title><![CDATA[Category: heroku | Benjamin Guillet]]></title>
   <link href="http://www.benjaminguillet.com/blog/categories/heroku/atom.xml" rel="self"/>
   <link href="http://www.benjaminguillet.com/"/>
-  <updated>2013-04-21T20:59:37-05:00</updated>
+  <updated>2013-04-21T21:45:32-05:00</updated>
   <id>http://www.benjaminguillet.com/</id>
   <author>
     <name><![CDATA[Benjamin Guillet]]></name>
@@ -18,8 +18,26 @@
     <link href="http://www.benjaminguillet.com/blog/2013/04/11/schedule-rake-tasks-on-heroku/"/>
     <updated>2013-04-11T00:02:00-05:00</updated>
     <id>http://www.benjaminguillet.com/blog/2013/04/11/schedule-rake-tasks-on-heroku</id>
-    <content type="html"><![CDATA[<p>You first need to install the scheduler (free) addon on Heroku:
-heroku addons:add scheduler:standard</p>
+    <content type="html"><![CDATA[<p>Heroku offers a very simple and free way to schedule any tasks. This is
+basically an interface to cron.</p>
+
+<p>To do so you first need to install the scheduler addon on Heroku:
+<code>
+heroku addons:add scheduler:standard
+</code>
+Once this is done, you just need to go to your dashboard, click the app you
+just add the addon and click on "Heroku Scheduler Standard":</p>
+
+<p><img alt="Heroku App Dashboard" src="../images/screenshot_shockapi_dashboard.png" width="400" height="252" /></p>
+
+<p>Then, you can define with task to execute (rake earthquake:import in my case),
+and the frequency:</p>
+
+<p><img alt="Heroku Sheduler Addon" src="../images/screenshot_heroku_scheduler.png" width="400" height="154" /></p>
+
+<p>Note that the minimum frequency to execute a command in 10 minutes.</p>
+
+<p>Source: <a href="https://devcenter.heroku.com/articles/scheduler">https://devcenter.heroku.com/articles/scheduler</a></p>
 ]]></content>
   </entry>
   
