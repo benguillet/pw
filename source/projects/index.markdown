@@ -8,6 +8,21 @@ footer: true
 ---
 <div class="project_item">
     <div class="project_item_thumbnail">
+        <img src="../images/projects/friendrate.png" />
+    </div>
+    <div class="project_item_side">
+        <h2><a href="https://github.com/benjamin-guillet/friendrate#readme" target="_blank">FriendRate</a></h2>
+        <p class="project_item_description">An Android app which pulls your Facebook friends and randomly selects two friends.<br  /> 
+        The user then selects "Who's more fun", and the app shows the next two
+        friends.<br /><br />
+        After 10 selections, it displays a rank of the results.
+    </p>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+<div class="project_item">
+    <div class="project_item_thumbnail">
         <img src="../images/projects/shockapi.png" />
     </div>
     <div class="project_item_side">

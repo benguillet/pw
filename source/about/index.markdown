@@ -15,4 +15,4 @@ I have solid programming skills on various languages ranging from low to high le
 
 I am interested in Web development (back-end, frameworks, APIs creation), Mobile applications development (Android, iOS) and embedded systems.
 
-[My resume](../assets/benjamin_guillet_resume_20130317.pdf)
+[My resume](../assets/benjamin_guillet_resume_latest.pdf)
