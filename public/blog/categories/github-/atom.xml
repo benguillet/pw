@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: github, | Benjamin Guillet]]></title>
+  <link href="http://www.benjaminguillet.com/blog/categories/github-/atom.xml" rel="self"/>
+  <link href="http://www.benjaminguillet.com/"/>
+  <updated>2013-07-09T15:58:41-07:00</updated>
+  <id>http://www.benjaminguillet.com/</id>
+  <author>
+    <name><![CDATA[Benjamin Guillet]]></name>
+    <email><![CDATA[benjamin.guillet@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Checkbox in Github]]></title>
+    <link href="http://www.benjaminguillet.com/blog/2013/07/09/checkbox-in-github/"/>
+    <updated>2013-07-09T15:53:00-07:00</updated>
+    <id>http://www.benjaminguillet.com/blog/2013/07/09/checkbox-in-github</id>
+    <content type="html"><![CDATA[<p>Use a checkbox in a github comment or README:</p>
+
+<p><code>
+* [ ] Release API with new WarmPDF sidekiq worker
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>
