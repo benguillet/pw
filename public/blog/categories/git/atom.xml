@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: git | Benjamin Guillet]]></title>
+  <link href="http://www.benjaminguillet.com/blog/categories/git/atom.xml" rel="self"/>
+  <link href="http://www.benjaminguillet.com/"/>
+  <updated>2013-06-24T18:09:50-07:00</updated>
+  <id>http://www.benjaminguillet.com/</id>
+  <author>
+    <name><![CDATA[Benjamin Guillet]]></name>
+    <email><![CDATA[benjamin.guillet@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Git: rename local branch]]></title>
+    <link href="http://www.benjaminguillet.com/blog/2013/06/24/git-rename-local-branch/"/>
+    <updated>2013-06-24T16:27:00-07:00</updated>
+    <id>http://www.benjaminguillet.com/blog/2013/06/24/git-rename-local-branch</id>
+    <content type="html"><![CDATA[<p>To rename a local branch in Git, simply run:
+<code>sh
+$ git branch -m &lt;oldname&gt; &lt;newname&gt;
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>

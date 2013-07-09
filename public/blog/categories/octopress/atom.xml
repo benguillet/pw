@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | Benjamin Guillet]]></title>
+  <link href="http://www.benjaminguillet.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://www.benjaminguillet.com/"/>
+  <updated>2013-06-24T18:09:50-07:00</updated>
+  <id>http://www.benjaminguillet.com/</id>
+  <author>
+    <name><![CDATA[Benjamin Guillet]]></name>
+    <email><![CDATA[benjamin.guillet@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Fix rake new_post['title'] and Zsh]]></title>
+    <link href="http://www.benjaminguillet.com/blog/2013/06/24/fix-rake-new-post-title-and-zsh/"/>
+    <updated>2013-06-24T16:09:00-07:00</updated>
+    <id>http://www.benjaminguillet.com/blog/2013/06/24/fix-rake-new-post-title-and-zsh</id>
+    <content type="html"><![CDATA[<p>There is a bug with Zsh and the Octopress rake new_post command.</p>
+
+<p>Everytime you try to create a new post using this command, you get this:
+<code>sh
+$ rake new_post["My new post"]
+zsh: no matches found: new_post[My new post]
+</code></p>
+
+<p>The only workaround so far is:
+<code>sh
+rake new_post\["My new post"\]
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>

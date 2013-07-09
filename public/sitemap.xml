@@ -2,30 +2,54 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://www.benjaminguillet.com/blog/2012/03/07/title/</loc>
-        <lastmod>2013-04-21T21:44:58-05:00</lastmod>
+        <lastmod>2013-06-24T16:24:52-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.benjaminguillet.com/blog/2013/04/11/schedule-rake-tasks-on-heroku/</loc>
-        <lastmod>2013-04-21T21:44:57-05:00</lastmod>
+        <lastmod>2013-06-24T16:26:10-07:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://www.benjaminguillet.com/blog/2013/06/24/testing-your-local-variables-in-a-rails-view/
+        </loc>
+        <lastmod>2013-06-24T16:07:47-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.benjaminguillet.com/blog/2013/06/24/fix-rake-new-post-title-and-zsh/</loc>
+        <lastmod>2013-06-24T16:26:07-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.benjaminguillet.com/blog/2013/06/24/list-all-rake-tasks/</loc>
+        <lastmod>2013-06-24T16:27:05-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.benjaminguillet.com/blog/2013/06/24/git-rename-local-branch/</loc>
+        <lastmod>2013-06-24T16:28:13-07:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://www.benjaminguillet.com/blog/2013/06/24/fix-ssl-error-with-ruby-2-dot-0-and-rails4-on-osx/
+        </loc>
+        <lastmod>2013-06-24T18:09:50-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.benjaminguillet.com/about/</loc>
-        <lastmod>2013-05-21T00:15:48-05:00</lastmod>
+        <lastmod>2013-05-20T22:15:48-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.benjaminguillet.com/blog/archives/</loc>
-        <lastmod>2013-04-21T21:44:58-05:00</lastmod>
+        <lastmod>2013-06-24T18:09:50-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.benjaminguillet.com/</loc>
-        <lastmod>2013-04-21T21:44:58-05:00</lastmod>
+        <lastmod>2013-06-24T18:09:50-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.benjaminguillet.com/projects/</loc>
-        <lastmod>2013-04-25T21:09:21-05:00</lastmod>
+        <lastmod>2013-04-25T19:09:21-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.benjaminguillet.com/robots.txt</loc>
-        <lastmod>2013-02-22T15:28:37-06:00</lastmod>
+        <lastmod>2013-02-11T00:49:06-08:00</lastmod>
     </url>
 </urlset>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: rails | Benjamin Guillet]]></title>
+  <link href="http://www.benjaminguillet.com/blog/categories/rails/atom.xml" rel="self"/>
+  <link href="http://www.benjaminguillet.com/"/>
+  <updated>2013-06-24T18:09:50-07:00</updated>
+  <id>http://www.benjaminguillet.com/</id>
+  <author>
+    <name><![CDATA[Benjamin Guillet]]></name>
+    <email><![CDATA[benjamin.guillet@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Testing your local variables in a Rails view]]></title>
+    <link href="http://www.benjaminguillet.com/blog/2013/06/24/testing-your-local-variables-in-a-rails-view/"/>
+    <updated>2013-06-24T16:01:00-07:00</updated>
+    <id>http://www.benjaminguillet.com/blog/2013/06/24/testing-your-local-variables-in-a-rails-view</id>
+    <content type="html"><![CDATA[<p>Let's say you want to add a class to HTML tag, but not all the time.</p>
+
+<p>You can check if the local variable is set in a view like this:
+<code>haml
+.mobile-widget{ :class =&gt; (defined?(klass) ? klass : nil), 'data-view' =&gt; 'MobileWidget' }
+</code></p>
+
+<p>But there is a much better way. Simply do this:
+<code>haml
+.mobile-widget{ :class =&gt; local_assigns[:klass], 'data-view' =&gt; 'MobileWidget' }
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>

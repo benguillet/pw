@@ -4,7 +4,7 @@
   <title><![CDATA[Benjamin Guillet]]></title>
   <link href="http://www.benjaminguillet.com/atom.xml" rel="self"/>
   <link href="http://www.benjaminguillet.com/"/>
-  <updated>2013-05-21T00:17:54-05:00</updated>
+  <updated>2013-06-24T18:09:50-07:00</updated>
   <id>http://www.benjaminguillet.com/</id>
   <author>
     <name><![CDATA[Benjamin Guillet]]></name>
@@ -14,17 +14,123 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Fix SSL error with ruby 2.0 and Rails4 on OSX]]></title>
+    <link href="http://www.benjaminguillet.com/blog/2013/06/24/fix-ssl-error-with-ruby-2-dot-0-and-rails4-on-osx/"/>
+    <updated>2013-06-24T18:06:00-07:00</updated>
+    <id>http://www.benjaminguillet.com/blog/2013/06/24/fix-ssl-error-with-ruby-2-dot-0-and-rails4-on-osx</id>
+    <content type="html"><![CDATA[<p>If you encounter this error when trying to bundle install:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>Gem::RemoteFetcher::FetchError: SSL_connect <span class="nv">returned</span><span class="o">=</span>1 <span class="nv">errno</span><span class="o">=</span>0 <span class="nv">state</span><span class="o">=</span>SSLv3 <span class="nb">read </span>server certificate B: certificate verify failed
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Then it probably means than you need to upgrade your rubygem version.
+Check the current version:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>gem -v
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You need to use at least the 2.0.3. To upgrade, just run:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>gem update --system
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Git: rename local branch]]></title>
+    <link href="http://www.benjaminguillet.com/blog/2013/06/24/git-rename-local-branch/"/>
+    <updated>2013-06-24T16:27:00-07:00</updated>
+    <id>http://www.benjaminguillet.com/blog/2013/06/24/git-rename-local-branch</id>
+    <content type="html"><![CDATA[<p>To rename a local branch in Git, simply run:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>git branch -m &lt;oldname&gt; &lt;newname&gt;
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[List all rake tasks]]></title>
+    <link href="http://www.benjaminguillet.com/blog/2013/06/24/list-all-rake-tasks/"/>
+    <updated>2013-06-24T16:26:00-07:00</updated>
+    <id>http://www.benjaminguillet.com/blog/2013/06/24/list-all-rake-tasks</id>
+    <content type="html"><![CDATA[<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>rake -T
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fix rake new_post['title'] and Zsh]]></title>
+    <link href="http://www.benjaminguillet.com/blog/2013/06/24/fix-rake-new-post-title-and-zsh/"/>
+    <updated>2013-06-24T16:09:00-07:00</updated>
+    <id>http://www.benjaminguillet.com/blog/2013/06/24/fix-rake-new-post-title-and-zsh</id>
+    <content type="html"><![CDATA[<p>There is a bug with Zsh and the Octopress rake new_post command.</p>
+
+<p>Everytime you try to create a new post using this command, you get this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>rake new_post<span class="o">[</span><span class="s2">&quot;My new post&quot;</span><span class="o">]</span>
+</span><span class='line'>zsh: no matches found: new_post<span class="o">[</span>My new post<span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The only workaround so far is:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>rake new_post<span class="se">\[</span><span class="s2">&quot;My new post&quot;</span><span class="se">\]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Testing your local variables in a Rails view]]></title>
+    <link href="http://www.benjaminguillet.com/blog/2013/06/24/testing-your-local-variables-in-a-rails-view/"/>
+    <updated>2013-06-24T16:01:00-07:00</updated>
+    <id>http://www.benjaminguillet.com/blog/2013/06/24/testing-your-local-variables-in-a-rails-view</id>
+    <content type="html"><![CDATA[<p>Let&#8217;s say you want to add a class to HTML tag, but not all the time.</p>
+
+<p>You can check if the local variable is set in a view like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='haml'><span class='line'><span class="nc">.mobile-widget</span><span class="p">{</span> <span class="ss">:class</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">defined?</span><span class="p">(</span><span class="n">klass</span><span class="p">)</span> <span class="p">?</span> <span class="n">klass</span> <span class="p">:</span> <span class="kp">nil</span><span class="p">),</span> <span class="s1">&#39;data-view&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;MobileWidget&#39;</span> <span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>But there is a much better way. Simply do this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='haml'><span class='line'><span class="nc">.mobile-widget</span><span class="p">{</span> <span class="ss">:class</span> <span class="o">=&gt;</span> <span class="n">local_assigns</span><span class="o">[</span><span class="ss">:klass</span><span class="o">]</span><span class="p">,</span> <span class="s1">&#39;data-view&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;MobileWidget&#39;</span> <span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Schedule rake tasks on Heroku]]></title>
     <link href="http://www.benjaminguillet.com/blog/2013/04/11/schedule-rake-tasks-on-heroku/"/>
-    <updated>2013-04-11T00:02:00-05:00</updated>
+    <updated>2013-04-11T00:02:00-07:00</updated>
     <id>http://www.benjaminguillet.com/blog/2013/04/11/schedule-rake-tasks-on-heroku</id>
     <content type="html"><![CDATA[<p>Heroku offers a very simple and free way to schedule any tasks. This is
 basically an interface to cron.</p>
 
 <p>To do so you first need to install the scheduler addon on Heroku:</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>heroku addons:add scheduler:standard</span></code></pre></td></tr></table></div></figure>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>heroku addons:add scheduler:standard
+</span></code></pre></td></tr></table></div></figure>
 
 
 <p>Once this is done, you just need to go to your dashboard, click the app you
@@ -46,17 +152,15 @@ and the frequency:</p>
   <entry>
     <title type="html"><![CDATA[Get your SSH Key Fingerprint]]></title>
     <link href="http://www.benjaminguillet.com/blog/2012/03/07/title/"/>
-    <updated>2012-03-07T02:55:00-06:00</updated>
+    <updated>2012-03-07T02:55:00-08:00</updated>
     <id>http://www.benjaminguillet.com/blog/2012/03/07/title</id>
     <content type="html"><![CDATA[<p>Always helpful especially when GitHub has been <a href="https://github.com/blog/1068-public-key-security-vulnerability-and-mitigation">attacked</a> and asks for the verification of all you SSH keys&#8230;</p>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>ssh-keygen -lf ~/.ssh/ssh_host_rsa_key.pub
 </span><span class='line'>2048 d6:59:bc:0b:18:ba:17:15:41:fc:d0:2a:60:f4:7e:e8 ~/.ssh/ssh_host_rsa_key.pub
 </span></code></pre></td></tr></table></div></figure>
-
-
 
 ]]></content>
   </entry>

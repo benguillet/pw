@@ -10,8 +10,8 @@ Heroku offers a very simple and free way to schedule any tasks. This is
 basically an interface to cron.
 
 To do so you first need to install the scheduler addon on Heroku:
-```
-heroku addons:add scheduler:standard
+``` sh
+$ heroku addons:add scheduler:standard
 ```
 Once this is done, you just need to go to your dashboard, click the app you
 just add the addon and click on "Heroku Scheduler Standard":
@@ -25,4 +25,4 @@ and the frequency:
 
 Note that the minimum frequency to execute a command in 10 minutes.
 
-Source: [https://devcenter.heroku.com/articles/scheduler](https://devcenter.heroku.com/articles/scheduler) 
+Source: [https://devcenter.heroku.com/articles/scheduler](https://devcenter.heroku.com/articles/scheduler)
