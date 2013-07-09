@@ -4,7 +4,7 @@
   <title><![CDATA[Benjamin Guillet]]></title>
   <link href="http://www.benjaminguillet.com/atom.xml" rel="self"/>
   <link href="http://www.benjaminguillet.com/"/>
-  <updated>2013-07-09T15:58:41-07:00</updated>
+  <updated>2013-07-09T16:02:12-07:00</updated>
   <id>http://www.benjaminguillet.com/</id>
   <author>
     <name><![CDATA[Benjamin Guillet]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[HAML Helpers]]></title>
+    <link href="http://www.benjaminguillet.com/blog/2013/07/09/haml-helpers/"/>
+    <updated>2013-07-09T16:01:00-07:00</updated>
+    <id>http://www.benjaminguillet.com/blog/2013/07/09/haml-helpers</id>
+    <content type="html"><![CDATA[<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='haml'><span class='line'><span class="p">=</span> <span class="n">succeed</span> <span class="s1">&#39;. &#39;</span> <span class="k">do</span>
+</span><span class='line'> <span class="p">=</span> <span class="n">link_to</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Checkbox in Github]]></title>
