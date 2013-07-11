@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: sublime | Benjamin Guillet]]></title>
+  <link href="http://www.benjaminguillet.com/blog/categories/sublime/atom.xml" rel="self"/>
+  <link href="http://www.benjaminguillet.com/"/>
+  <updated>2013-07-11T00:42:02-07:00</updated>
+  <id>http://www.benjaminguillet.com/</id>
+  <author>
+    <name><![CDATA[Benjamin Guillet]]></name>
+    <email><![CDATA[benjamin.guillet@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Don't reopen files in Sublime Text 2]]></title>
+    <link href="http://www.benjaminguillet.com/blog/2013/07/11/dont-reopen-files-in-sublime-text-2/"/>
+    <updated>2013-07-11T00:40:00-07:00</updated>
+    <id>http://www.benjaminguillet.com/blog/2013/07/11/dont-reopen-files-in-sublime-text-2</id>
+    <content type="html"><![CDATA[<p>Just add this to your settings:</p>
+
+<p><code>
+"hot_exit": false,
+"remember_open_files": false # ignored if hot_exit is true.
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>
