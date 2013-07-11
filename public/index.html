@@ -7,10 +7,8 @@
 	<meta name="author" content="Benjamin Guillet">
 
 	
-	<meta name="description" content=" Just add this to your settings: 1
-2
-"hot_exit": false,
-"remember_open_files": false # ignored if hot_exit is true. ">
+	<meta name="description" content=" To swap windows 3 and 1, press the prefix shortcut (Ctrl+b by default) and: 1
+:swap-window -s 3 -t 1 ">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -101,6 +99,45 @@
 			
 			<div class="mid-col-container">
 				<div id="content" class="inner">
+
+
+    <article class="post">
+	<div class="meta">
+		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-11T00:48:00-07:00" pubdate data-updated="true">Jul 11<span>th</span>, 2013</time></div>
+		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/tmux/'>tmux</a>
+
+
+</div>
+		
+	</div>
+	<h1 class="title"><a href="/blog/2013/07/11/swap-windows-in-tmux/">Swap Windows in Tmux</a></h1>
+	<div class="entry-content">
+		<p>To swap windows 3 and 1, press the prefix shortcut (Ctrl+b by default) and:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>:swap-window -s 3 -t 1</span></code></pre></td></tr></table></div></figure>
+
+
+		
+		
+	</div>
+
+</article>
 
 
     <article class="post">
@@ -499,63 +536,6 @@ Check the current version:</p>
 </pre></td><td class='code'><pre><code class='haml'><span class='line'><span class="nc">.mobile-widget</span><span class="p">{</span> <span class="ss">:class</span> <span class="o">=&gt;</span> <span class="n">local_assigns</span><span class="o">[</span><span class="ss">:klass</span><span class="o">]</span><span class="p">,</span> <span class="s1">&#39;data-view&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;MobileWidget&#39;</span> <span class="p">}</span>
 </span></code></pre></td></tr></table></div></figure>
 
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post">
-	<div class="meta">
-		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-11T00:02:00-07:00" pubdate data-updated="true">Apr 11<span>th</span>, 2013</time></div>
-		<div class="tags">
-
-
-	<a class='category' href='/blog/categories/heroku/'>heroku</a>, <a class='category' href='/blog/categories/rake/'>rake</a>
-
-
-</div>
-		
-	</div>
-	<h1 class="title"><a href="/blog/2013/04/11/schedule-rake-tasks-on-heroku/">Schedule Rake Tasks on Heroku</a></h1>
-	<div class="entry-content">
-		<p>Heroku offers a very simple and free way to schedule any tasks. This is
-basically an interface to cron.</p>
-
-<p>To do so you first need to install the scheduler addon on Heroku:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>heroku addons:add scheduler:standard
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Once this is done, you just need to go to your dashboard, click the app you
-just add the addon and click on &#8220;Heroku Scheduler Standard&#8221;:</p>
-
-<p><img alt="Heroku App Dashboard" src="../images/screenshot_shockapi_dashboard.png" width="400" height="252" /></p>
-
-<p>Then, you can define with task to execute (rake earthquake:import in my case),
-and the frequency:</p>
-
-<p><img alt="Heroku Sheduler Addon" src="../images/screenshot_heroku_scheduler.png" width="400" height="154" /></p>
-
-<p>Note that the minimum frequency to execute a command in 10 minutes.</p>
-
-<p>Source: <a href="https://devcenter.heroku.com/articles/scheduler">https://devcenter.heroku.com/articles/scheduler</a></p>
 
 		
 		
