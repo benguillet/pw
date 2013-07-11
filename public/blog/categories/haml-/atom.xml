@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: rails | Benjamin Guillet]]></title>
-  <link href="http://www.benjaminguillet.com/blog/categories/rails/atom.xml" rel="self"/>
+  <title><![CDATA[Category: haml, | Benjamin Guillet]]></title>
+  <link href="http://www.benjaminguillet.com/blog/categories/haml-/atom.xml" rel="self"/>
   <link href="http://www.benjaminguillet.com/"/>
   <updated>2013-07-11T00:42:02-07:00</updated>
   <id>http://www.benjaminguillet.com/</id>
@@ -29,25 +29,6 @@
 </code>
 The <strong>surround</strong> and <strong>precede</strong> helpers follow the same pattern.
 <a href="http://haml.info/docs/yardoc/Haml/Helpers.html">More info</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Testing your local variables in a Rails view]]></title>
-    <link href="http://www.benjaminguillet.com/blog/2013/06/24/testing-your-local-variables-in-a-rails-view/"/>
-    <updated>2013-06-24T16:01:00-07:00</updated>
-    <id>http://www.benjaminguillet.com/blog/2013/06/24/testing-your-local-variables-in-a-rails-view</id>
-    <content type="html"><![CDATA[<p>Let's say you want to add a class to HTML tag, but not all the time.</p>
-
-<p>You can check if the local variable is set in a view like this:
-<code>haml
-.mobile-widget{ :class =&gt; (defined?(klass) ? klass : nil), 'data-view' =&gt; 'MobileWidget' }
-</code></p>
-
-<p>But there is a much better way. Simply do this:
-<code>haml
-.mobile-widget{ :class =&gt; local_assigns[:klass], 'data-view' =&gt; 'MobileWidget' }
-</code></p>
 ]]></content>
   </entry>
   
