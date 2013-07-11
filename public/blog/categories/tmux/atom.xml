@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: tmux | Benjamin Guillet]]></title>
+  <link href="http://www.benjaminguillet.com/blog/categories/tmux/atom.xml" rel="self"/>
+  <link href="http://www.benjaminguillet.com/"/>
+  <updated>2013-07-11T00:50:15-07:00</updated>
+  <id>http://www.benjaminguillet.com/</id>
+  <author>
+    <name><![CDATA[Benjamin Guillet]]></name>
+    <email><![CDATA[benjamin.guillet@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Swap windows in tmux]]></title>
+    <link href="http://www.benjaminguillet.com/blog/2013/07/11/swap-windows-in-tmux/"/>
+    <updated>2013-07-11T00:48:00-07:00</updated>
+    <id>http://www.benjaminguillet.com/blog/2013/07/11/swap-windows-in-tmux</id>
+    <content type="html"><![CDATA[<p>To swap windows 3 and 1, press the prefix shortcut (Ctrl+b by default) and:
+<code>
+:swap-window -s 3 -t 1
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>
