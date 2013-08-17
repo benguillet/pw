@@ -16,12 +16,12 @@ $ heroku addons:add scheduler:standard
 Once this is done, you just need to go to your dashboard, click the app you
 just add the addon and click on "Heroku Scheduler Standard":
 
-<img alt="Heroku App Dashboard" src="../images/screenshot_shockapi_dashboard.png" width="400" height="252" />
+<img alt="Heroku App Dashboard" src="/images/screenshot_shockapi_dashboard.png" width="400" height="252" />
 
 Then, you can define with task to execute (rake earthquake:import in my case),
 and the frequency:
 
-<img alt="Heroku Sheduler Addon" src="../images/screenshot_heroku_scheduler.png" width="400" height="154" />
+<img alt="Heroku Sheduler Addon" src="/images/screenshot_heroku_scheduler.png" width="400" height="154" />
 
 Note that the minimum frequency to execute a command in 10 minutes.
 
