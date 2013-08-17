@@ -3,7 +3,7 @@ layout: post
 title: "HAML Helpers"
 date: 2013-07-09 16:01
 comments: true
-categories: haml, rails
+categories: [haml, rails]
 ---
 Haml comes with some very sweet helpers.
 
